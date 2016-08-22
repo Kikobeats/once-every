@@ -1,0 +1,54 @@
+{
+  "name": "once-every",
+  "description": "Do something every n times.",
+  "homepage": "https://github.com/Kikobeats/once-every",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/once-every.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/once-every/issues"
+  },
+  "keywords": [
+    "after",
+    "counter",
+    "every",
+    "once"
+  ],
+  "devDependencies": {
+    "coffee-script": "latest",
+    "coveralls": "latest",
+    "git-dirty": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "should": "latest",
+    "standard": "latest"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
+  },
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
