@@ -2,7 +2,7 @@
   "name": "once-every",
   "description": "Do something every n times.",
   "homepage": "https://github.com/Kikobeats/once-every",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "name": "Kiko Beats",
