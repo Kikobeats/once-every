@@ -12,10 +12,12 @@ describe('once-every', function () {
     })
 
     fn()
+    counter.should.be.equal(0)
     fn()
     counter.should.be.equal(1)
 
     fn()
+    counter.should.be.equal(1)
     fn()
     counter.should.be.equal(2)
   })
