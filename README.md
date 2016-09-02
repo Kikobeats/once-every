@@ -37,14 +37,14 @@ fn() //=> 'hello world'
 
 #### n
 
-*Required*
+*Required*<br>
 Type: `number`
 
 Count until `n` for do something.
 
 #### fn
 
-*Required*
+*Required*<br>
 Type: `function`
 
 What do after count until `n`.
