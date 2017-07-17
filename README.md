@@ -1,5 +1,7 @@
 # once-every
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/once-every.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/once-every.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/once-every/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/once-every)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/once-every.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/once-every)
